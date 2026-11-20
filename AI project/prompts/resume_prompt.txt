@@ -1,0 +1,7 @@
+Analyze this resume and return only a JSON object with these exact keys:
+"skills", "projects", "education", "strengths", "weaknesses".
+
+Each value must be an array of concise strings. Do not invent experience that is not supported by the resume.
+
+Resume:
+{{resume_text}}

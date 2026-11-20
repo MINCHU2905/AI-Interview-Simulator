@@ -1,0 +1,11 @@
+Generate exactly {{question_count}} personalized interview questions. Return only a JSON array of question strings.
+
+Interview type: {{interview_type}}
+Difficulty: {{difficulty}}
+Candidate skills: {{skills}}
+Custom focus (if provided): {{custom_focus}}
+
+Base questions on the resume below. Avoid duplicate questions and do not include answers.
+
+Resume:
+{{resume_text}}
